@@ -1,0 +1,6 @@
+﻿langchain
+llama-cpp-python
+pymupdf
+tqdm
+fastapi
+uvicorn
