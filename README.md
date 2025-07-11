@@ -39,25 +39,43 @@ Editar
 - Git (opcional)
 - Ollama instalado y funcionando localmente
 
-### 2. Clona el repositorio
+## 2. Clona el repositorio
 
 ```bash
 git clone https://github.com/lauravrincong4/assistive-robotics-ai-agent.git
 cd assistive-robotics-ai-agent
-3. Crea y activa un entorno virtual con Conda
-bash
-Copiar
-Editar
+```
+
+## 3. Crea y activa un entorno virtual con Conda
+
+```bash
 conda create -n roboarm-gpu python=3.10
 conda activate roboarm-gpu
-4. Instala las dependencias
-bash
-Copiar
-Editar
+```
+
+## 4. Instala las dependencias
+
+```bash
 pip install -r requirements.txt
-5. Abre el proyecto en VS Code
-bash
-Copiar
-Editar
+```
+
+## 5. Asegúrate de tener instalado llama-cpp-python con soporte GPU
+
+```bash
+pip install llama-cpp-python --upgrade
+```
+
+## 6. (Opcional) Instala Jupyter para ejecutar el notebook
+
+```bash
+pip install notebook
+jupyter notebook
+```
+
+## 7. Abre el proyecto en VS Code
+
+```bash
 code .
-Asegúrate de seleccionar el entorno roboarm-gpu como kernel si usas notebooks.
+```
+
+_Asegúrate de seleccionar el entorno `roboarm-gpu` como kernel si usas notebooks._
